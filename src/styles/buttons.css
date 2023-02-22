@@ -1,0 +1,129 @@
+.primary-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: var(--button-pad-1);
+    gap: var(--button-gap-1);
+    background-color: var(--brand-1);
+    border: 0.125em solid var(--brand-1);
+    border-radius: var(--border-radius-1);
+    color: var(--whiteFixed);
+    font-weight: var(--title-weigth-2);
+    font-size: var(--text-size-2);
+    line-height: 1.063em;
+    width: 70px;
+    height: 30px;
+    
+}
+.primary-button:hover {
+    background-color: var(--brand-2);
+    border: 0.125em solid var(--brand-2);
+}
+
+.disable-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: var(--button-pad-1);
+    gap: var(--button-gap-1);
+    background-color: var(--grey4);
+    border: 0.125em solid var(--grey4);
+    border-radius: var(--border-radius-1);
+    color: var(--grey3);
+    font-weight: var(--title-weigth-2);
+    font-size: var(--text-size-2);
+    line-height: 1.063em;
+    width: 70px;
+    height: 30px;
+}
+.white-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: var(--button-pad-1);
+    gap: var(--button-gap-1);
+    background-color: var(--whiteFixed);
+    border: 0.125em solid var(--whiteFixed);
+    border-radius: var(--border-radius-1);
+    color: var(--grey1);
+    font-weight: var(--title-weigth-2);
+    font-size: var(--text-size-2);
+    line-height: 1.063em;
+    width: 70px;
+    height: 30px;
+}
+.white-button:hover {
+    background-color: var(--grey5);
+    border: 0.125em solid var(--grey5);
+}
+.outline-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: var(--button-pad-1);
+    background-color: var(--whiteFixed);
+    gap: var(--button-gap-1);
+    border: 0.063em solid var(--grey1);
+    border-radius: var(--border-radius-0);
+    color: var(--grey1);
+    font-weight: var(--title-weigth-2);
+    font-size: var(--text-size-2);
+    line-height: 1.063em;
+    width: 70px;
+    height: 30px;
+}
+.outline-button:hover {
+    background-color: #EDF2FF; 
+    /* Não tem na cores defalt */
+    border: 0.063em solid var(--brand-1);
+    color: var(--brand-1);
+}
+.outline-button:focus {
+    background-color: var(--brand-1);
+    border: 0.063em solid var(--brand-1);
+    color: var(--whiteFixed);
+}
+.title-input {
+    padding: var(--title-pad-1);
+    background-color: var(--whiteFixed);
+    border-radius: var(--border-radius-1);
+    border: 0.125em solid var(--grey4);
+    font-weight: var(--text-weigth-1);
+    font-size: var(--text-size-1);
+    line-height: 1.188em;
+    color: var(--grey3);
+}
+.title-input:focus {
+    border: 0.125em solid var(--brand-1);
+}
+/* .title-input:valid {
+    border: 0.125em solid var(--grey4);
+    color: var(--grey2);
+} */
+.text-input {
+    padding: var(--text-pad-1);
+    gap: var(--button-gap-1);
+    background-color: var(--whiteFixed);
+    border: 0.25em solid var(--grey4);
+    border-radius: var(--border-radius-1);
+    font-weight: var(--text-weigth-1);
+    font-size: var(--text-size-1);
+    line-height: 1.188em;
+    color: var(--grey3);
+    height: 8.125em;
+}
+.text-input:focus {
+    border: 0.125em solid var(--brand-1);
+}
+/* .text-input:valid {
+    border: 0.125em solid var(--grey4);
+    color: var(--grey2);
+} */
+.img-like {
+    width: 1.423em;
+    height: 1.25em;
+}

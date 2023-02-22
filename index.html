@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-Br">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -8,6 +8,10 @@
     <!-- CSS -->
     <link rel="stylesheet" href="./src/styles/reset.css" />
     <link rel="stylesheet" href="./src/styles/index.css" />
+    <link rel="stylesheet" href="./src/styles/globalStyles.css">
+    <link rel="stylesheet" href="./src/styles/fonts.css">
+    <link rel="stylesheet" href="./src/styles/buttons.css">
+    <link rel="stylesheet" href="./src/styles/colors.css">
 
     <!-- FONTE -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -19,5 +23,40 @@
 
     <title>Criando rede social</title>
   </head>
-  <body></body>
+  <body>
+    <nav class="grey-bgc-1">
+      <h1 class="titleStyle-2 whiteFixed-color" >TechPosters</h1>
+      <span class="textStyle-2 whiteFixed-color">Sair</span>
+    </nav>
+    <div class="main-div">
+      <div class="post-div">
+        <div class="main-post">
+          <img src="./src/assets/img/user1.svg" alt="">
+          <div class="main-description">
+            <h2 class="titleStyle-2 grey-color-1 register__input" name="name">Samuel Leão</h2>
+            <span class="textStyle-1 grey-color-2 register__input" name="stack">Front end Engineer</span>
+          </div>
+        </div>
+        <div class="main-inputs">
+          <input type="text" class="title-input register__input" name="title" placeholder="Digitar título do post">
+          <textarea class="text-input register__input" name="text" id="description" placeholder="Digitar descrição do post"></textarea>
+          <button id="submitButton" class="disable-button button__card" type="submit">Postar</button>
+        </div>
+      </div>
+      <aside>
+        <h2 class="titleStyle-2 grey-color-1">Sugestões para você seguir</h2>
+        <ul class="sugestions-list">
+
+        </ul>
+      </aside>
+    </div>
+    <section>
+      <h1 class="titleStyle-1 grey-color-1 ">Posts</h1>
+      <ul class="post-list">
+        
+      </ul>
+    </section>
+    <dialog class="modal__container"></dialog>
+    <script type="module" src="./src/scripts/index.js"></script>
+  </body>
 </html>

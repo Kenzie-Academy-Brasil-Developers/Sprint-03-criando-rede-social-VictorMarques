@@ -1,0 +1,50 @@
+:root {
+    /*Brand Colors */
+    --brand-1: #4263EB;
+    --brand-2: #364fc7;
+    /* Grey Colors */
+    --grey0: #0A0C0D;
+    --grey1: #212529;
+    --grey2: #495057;
+    --grey3: #868E96;
+    --grey4: #DEE2E6;
+    --grey5: #F8F9FA;
+    --grey-opacity: rgba(33, 37, 41, 0.5);
+    --whiteFixed: #FFFFFF;
+    /* Feedback Palette */
+    --likeColor:#D7443E;
+    /* Fonts Sizes */
+    --title-size-1: 1.75em;
+    --title-size-2: 1.25em;
+    --text-size-1: 1em;
+    --text-size-2: 0.875em;
+    --text-size-3: 0.75em;
+    /* Fonts Weigth */
+    --title-weigth-1: 700;
+    --title-weigth-2: 600;
+    --text-weigth-1: 400;
+    --text-weigth-2: 400;
+    --text-weigth-3: 400;
+    /* Line heigth */
+    --title-lineHeigth-1: 40px;
+    --title-lineHeigth-2: 24px;
+    --text-lineHeigth-1: 28px;
+    --text-lineHeigth-2: 16px;
+    --text-lineHeigth-3: 16px;
+    /* Border Config */
+    --border-radius-0: 0.125em;
+    --border-radius-1: 0.25em;
+
+    /* Buttons Config */
+
+    /* Button padding */
+    --button-pad-1: 0 0.75em;
+    --title-pad-1: 1em 1.25em;
+    --text-pad-1: 1.75em 1.313em 1.813em;
+
+    /* Button Gap */
+    --button-gap-1: 0.625em;
+
+    
+    
+}

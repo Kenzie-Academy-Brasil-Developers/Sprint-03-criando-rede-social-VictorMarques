@@ -1,0 +1,192 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.875em 1.25em;
+    gap: var(--button-gap-1);
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.main-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5em;
+    gap: 2.5em;
+}
+
+.post-div {
+    width: 100%;
+    margin-top: 100px;
+}
+.main-post {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 0.75em;
+}
+input {
+    width: 100%;
+}
+textarea {
+    resize: none;
+    width: 90%;
+}
+.main-inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 1.375em;
+    margin-top: 3.125em;
+}
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 61px;
+    width: 100%;
+    margin-top: 100px;
+}
+.sugestions-list {
+    display: flex;
+    gap: 25px;
+    flex-direction: row;
+    overflow-x: auto;
+}
+
+.sugestions-card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    width: 250px;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.5em;
+    gap: 2.5em;
+}
+
+.post-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3.25em;
+}
+.card__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 32px;
+    align-items: center;
+}
+.user__card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.75em;
+
+}
+.button__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: var(--button-pad-1);
+    gap: var(--button-gap-1);
+    background-color: var(--grey1);
+    border: 0.125em solid var(--grey1);
+    border-radius: var(--border-radius-1);
+    color: var(--whiteFixed);
+    font-weight: var(--title-weigth-2);
+    font-size: var(--text-size-2);
+    line-height: 1.063em;
+    width: 100px;
+    height: 30px;
+}
+.button__card:hover {
+    background-color: var(--grey0);
+    border: 0.125em solid var(--grey0);
+}
+
+img {
+    height: 3.25em;
+    width: 3.25em;
+}
+
+.modal__container {
+    width: 90%;
+}
+.modal__main {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 40px 24px;
+    align-items: flex-start;
+}
+
+@media (min-width: 1024px) {
+    nav {
+        align-items: center;
+        padding: 1.875em 6.25em;
+        
+       
+    }
+    .main-div {
+        padding: 1.875em 6.25em;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        gap: 0;
+    }
+    .post-div {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        width: 60%;
+    }
+    .main-inputs {
+        width: 90%;
+    }
+    aside {
+        gap: 3.813em;
+        width: 40%;
+    }
+    .sugestions-list {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2em;
+        width: 100%;
+    }
+    .sugestions-card {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        width: 100%;
+        align-content: space-between;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    section {
+        padding: 1.875em 6.25em;
+        width: 60%;
+        padding-right: 5em;
+    }
+    
+
+
+}
